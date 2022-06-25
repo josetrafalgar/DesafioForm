@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+body {
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  background: #e5e5e5;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+.header {
+  width: 319px;
+}
+
+.header h1,
+.header p {
+  color: #ffffff;
+}
+span {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #c1bccc;
+}
+.header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 140px;
+}
+.header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 58px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+}
+.fieldset-wrapper {
+  padding: 64px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.colinput {
+  display: flex;
+  gap: 16px;
+}
+.colinput .input-wrapper {
+  width: 50%;
+}
+.form-wrapper {
+  display: flex;
+}
+.form-wrapper > div:nth-child(1) {
+  margin-right: 32px;
+  width: 50%;
+}
+.form-wrapper > div:nth-child(2) {
+  margin-right: 10px;
+  width: 25%;
+}
+.form-wrapper > div:nth-child(3) {
+  width: 25%;
+}
+
+fieldset {
+  border: none;
+}
+form {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+form legend {
+  color: #535971;
+
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+form label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #4e4958;
+}
+form input {
+  height: 56px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+}
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  padding: 52px 71px;
+}
+.button {
+  width: 608px;
+  height: 55.65px;
+  background: #ff5374;
+  border-radius: 20px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.button:hover {
+  background: #8c2e41;
+}
